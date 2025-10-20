@@ -1,2 +1,2 @@
-# photoshareApp
-Photo sharing app
+# PhotoshareApp
+This is a photo sharing application
