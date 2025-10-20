@@ -1,0 +1,38 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "A photo sharing app ",
+  "keywords": [
+    "Photo",
+    "sharing",
+    "Mongo",
+    "DB",
+    "React"
+  ],
+  "homepage": "https://github.com/st10384498/photoshareApp2#readme",
+  "bugs": {
+    "url": "https://github.com/st10384498/photoshareApp2/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/st10384498/photoshareApp2.git"
+  },
+  "license": "ISC",
+  "author": "Mihlali Nondlozi",
+  "type": "module",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  },
+  "dependencies": {
+    "bcrypt": "^6.0.0",
+    "dotenv": "^17.2.1",
+    "express": "^5.1.0",
+    "mongodb": "^6.18.0",
+    "mongoose": "^8.17.0"
+  }
+}
